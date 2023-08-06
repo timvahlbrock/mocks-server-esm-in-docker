@@ -1,4 +1,4 @@
 module.exports = {
-    plugins: ["@babel/plugin-transform-modules-commonjs", { importInterop: "node" }],
+    plugins: ["@babel/plugin-transform-modules-commonjs"],
     presets: ["@babel/env", "@babel/preset-typescript"]
 };
